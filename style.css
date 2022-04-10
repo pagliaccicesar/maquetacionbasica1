@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:ital,wght@1,300&family=Palanquin:wght@300&family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    background-color: #ccc;
+    font-family: 'fira Sans', sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background-color: #242582;
+    color: #F64C72;
+}
+nav {
+    background-color: #2f2fa2;
+    color: #fff;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    color: #99738E;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color:#F64C72;
+}
+#presentacion {
+    background-image: url("img/trianglify-lowres.png");
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#presentacion h2{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1em;
+    padding-top: 30px;
+}
+main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+aside {
+    float: right;
+    width: 30%;
+    background-color: #F64C72;
+    color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #242582;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+}
+@media (max-width: 600px) {
+    main, aside {
+        width: 100%;
+        float: none;
+    }
+}
