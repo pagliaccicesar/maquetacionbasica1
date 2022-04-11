@@ -91,12 +91,13 @@ footer {
     h1 {
         display: block;
         text-align: center;
+        margin: 5px;
         font-size: 130%;
         float: none;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     ul li{
         display:inside;
         align-content:space-between;
