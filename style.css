@@ -17,7 +17,8 @@ ul li{
     overflow: hidden;
 }
 header {
-    /*background-color: #242582;*/  
+    /*background-color: #242582;*/
+   
     background-color: black;
     color: #F64C72;
 }
@@ -47,7 +48,7 @@ nav a:hover {
     /*background-image: url("img/trianglify-lowres.png");*/
     background-image: url("./img/hoja.jpg");
     background-size: cover;
-    min-height: 300px;
+    min-height: 600px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -59,16 +60,16 @@ nav a:hover {
 }
 main {
     float: left;
-    width: 70%;
+    width: 65%;
     padding: 0 30px;
     box-sizing: border-box;
 }
 aside {
     float: right;
-    width: 30%;
+    width: 35%;
     background-color: #F64C72;
     color: #fff;
-    padding: 0 30px;
+    padding: 0 0px;
     box-sizing: border-box;
 }
 
@@ -106,4 +107,9 @@ footer {
         height: auto;
         float: none;
     }
+}
+
+.cielo {
+    width: 450px;
+    height: auto;
 }
