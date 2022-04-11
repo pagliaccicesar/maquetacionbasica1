@@ -7,15 +7,21 @@ body {
     margin: 0;
 }
 
+ul li{
+    display: inline-block;
+}
+
 .contenedor {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 header {
-    background-color: #242582;
+    /*background-color: #242582;*/  
+    background-color: black;
     color: #F64C72;
 }
+
 nav {
     background-color: #2f2fa2;
     color: #fff;
@@ -38,7 +44,8 @@ nav a:hover {
     color:#F64C72;
 }
 #presentacion {
-    background-image: url("img/trianglify-lowres.png");
+    /*background-image: url("img/trianglify-lowres.png");*/
+    background-image: url("./img/hoja.jpg");
     background-size: cover;
     min-height: 300px;
     margin-bottom: 30px;
@@ -66,7 +73,8 @@ aside {
 }
 
 footer {
-    background-color: #242582;
+    /*background-color: #242582;*/
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 5px;

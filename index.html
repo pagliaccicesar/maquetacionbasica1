@@ -5,25 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Proyecto Css</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   </head>
 
   <body>
     <header>
       <div class="contenedor">
-        <h1>Mi proyecto</h1>
+        <div class="row">
+           <div class="col">
+              <h1>Mi proyecto</h1>
+           </div>
+            <div class="col-3">
+                <div class="redes"> 
+                  <ul>         
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="./img/correoe.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="./img/instag.png" alt="instagram"></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whats.png" alt="whatsapp"></a></li>
+                  </ul>
+                </div>  
+            </div>
+        </div>
       </div>
+      
     </header>
 
     <nav>
       <div class="contenedor">
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#">Inicio</a></li>         
+          <li><a href="#">Productos</a></li>
           <li><a href="#">Contacto</a></li>
-        </ul>
-      </div>
+        </ul>        
     </nav>
 
     <div id="presentacion">
@@ -94,4 +107,8 @@
         <p>Copyright &copy; 2022 Mi proyecto Navis code</p>
     </footer>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
