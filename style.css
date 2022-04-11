@@ -86,3 +86,22 @@ footer {
         float: none;
     }
 }
+
+@media (max-width: 480px) {
+    h1 {
+        display: block;
+        text-align: top;
+        font-size: 130%;
+        float: none;
+    }
+}
+
+@media (max-width: 600px) {
+    ul li{
+        display:inside;
+        align-content:space-between;
+        width:  50%;
+        height: auto;
+        float: none;
+    }
+}
