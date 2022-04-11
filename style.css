@@ -96,11 +96,11 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     ul li{
         display:inside;
         align-content:space-between;
-        margin-right: 1px;
+        margin-right: 80px;
         width:  50%;
         height: auto;
         float: none;
