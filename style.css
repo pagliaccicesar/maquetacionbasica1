@@ -90,7 +90,7 @@ footer {
 @media (max-width: 480px) {
     h1 {
         display: block;
-        text-align: top;
+        text-align: center;
         font-size: 130%;
         float: none;
     }
@@ -100,6 +100,7 @@ footer {
     ul li{
         display:inside;
         align-content:space-between;
+        margin-right: 1px;
         width:  50%;
         height: auto;
         float: none;
